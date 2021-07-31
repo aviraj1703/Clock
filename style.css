@@ -14,27 +14,36 @@ body{
     margin: auto;
     position: relative;
 }
-#Hour, #Minute, #Second{
+#Hour, #Minute, #Second, #circle{
     position: absolute;
     background-color: rgb(17, 15, 15);
-    border-radius: 30px;
     transform-origin: bottom;
 }
 #Hour{
     height: 23%;
     width: 2%;
-    top: 24.5%;
+    top: 24%;
     left: 48.85%;
+    border-radius: 50%;
 }
 #Minute{
     height: 28%;
     width: 1.5%;
     top: 19%;
     left: 49.15%;
+    border-radius: 50%;
 }
 #Second{
     height: 31%;
     width: 1%;
     top: 16%;
     left: 49.45%;
+    border-radius: 50%;
+}
+#circle{
+    height: 1%;
+    width: 2.7%;
+    top: 47%;
+    left: 48.5%;
+    border-radius: 50%;
 }
